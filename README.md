@@ -10,4 +10,7 @@ A minimal FastAPI - React - MongoDB app to demonstrate working process of fronte
 ### Start frontend
 * Navigate to frontend directory
 * Run: ```npm start```
-  
+
+## TBD
+* Add Edit Functionality in the frontend
+

@@ -55,6 +55,6 @@ async def put_todo(title: str, description: str):
 async def delete_todo(title: str):
     response = await delete_todo_db(title)
     if response:
-        return f"Successfully deleted todo: \"{title}\""
+        return response
     else:
         raise HTTPException(400, f"Couldn't delete todo: \"{title}\"")
